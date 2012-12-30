@@ -1,18 +1,18 @@
 (
     (id "book")
-    (ref ((name "Real World OCaml")
-          (link (Webpage "http://realworldocaml.org") )  ))
+    (ref ((name "O'Reilly: Real World OCaml")
+          (link (Webpage "http://shop.oreilly.com/product/0636920024743.do") )  ))
     (ty Asset)
-    (descr "O'Reilly Book - Print version")
+    (descr "Real World OCaml (print edition)")
 )
 (
     (id "book-website")
-    (ref ((name "Online RWO feedback")
-          (link (Webpage "http://realworldocaml.org/en/html") )))
+    (ref ((name "Real World OCaml (online)")
+          (link (Webpage "http://realworldocaml.org/") )))
     (ty Asset)
     (descr "Online version of the Real World OCaml book.
-        The whole book will be readable online, and
-        generated from content in the book's repository.
-        Each paragraph has commenting functionality enabled,
-        with the comments stored as Github issues.")
+        The whole book will be freely readable online under a
+        Creative Commons license.  While it is under development,
+        the online version has per-paragraph commenting functionality enabled,
+        with the comments stored as Github issues for the authors to manage")
 )
