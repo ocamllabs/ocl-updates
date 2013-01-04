@@ -38,6 +38,17 @@ Mirage also provides a suite of clean-slate, type-safe protocol libraries includ
       of thousands of hosts today.")
 )
 (
+    (id "freebsd-mirage-talk")
+    (ref ((name "Mirage/kFreeBSD") 
+          (link (Webpage "http://wiki.freebsd.org/201210DevSummit#Talks"))) )
+    (ty (Talk ((name "FreeBSD Developer Summit 2012") 
+               (link (Webpage "http://wiki.freebsd.org/201210DevSummit"))) ))
+  (extra (
+     ((name Slides) (link (Pdf "http://wiki.freebsd.org/201210DevSummit?action=AttachFile&do=get&target=mirage-kfreebsd.pdf")))
+  ))
+    (descr "This invitation-only FreeBSD Developer Summit took place at EuroBSDcon 2012, located in Warsaw, Poland. The developer summit spans three days, with a mixture of hacking, working group meetings, and presentations.")
+)
+(
   (id "xen-incubate-meeting")
   (ref ((name "Mirage as a xen.org incubated project")))
   (ty (Event ("avsm" "dscott" "achaudhry" "lkurth")))

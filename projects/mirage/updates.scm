@@ -20,6 +20,11 @@
     of Mirage. The talk slides are [self-hosted](https://github.com/djs55/oud-2012) using Mirage.")
 )
 (
+  (date 2012-10-20)
+  (ty (Event "freebsd-mirage-talk"))
+  (descr "Gabor Pali presented his FreeBSD kernel port of Mirage.")
+)
+(
   (date 2012-11-28)
   (ty (Event "xen-incubate-meeting"))
   (descr "Anil, Dave and Amir are working with Lars (the xen.org community manager) to incorporate Mirage as an incubated project,
