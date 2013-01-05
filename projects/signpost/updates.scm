@@ -1,3 +1,7 @@
+(   (date 2013-01-05)
+    (ty (Event "plmw-2012"))
+    (descr "Heidi Howard won a scholarship to attend PLMW, at [POPL](http://popl.mpi-sws.org/2013/).  She has been working on the Signposts system as an undergraduate research, which is written entirely in OCaml.")
+)
 (
     (date 2012-08-13)
     (ty (Published "sigcomm-poster-2012"))

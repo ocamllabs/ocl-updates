@@ -1,4 +1,11 @@
 (
+  (id "plmw-2012")
+  (ref ((name "SIGPLAN Programming Languages Mentoring Workshop")
+        (link (Webpage "http://www.doc.ic.ac.uk/~gds/PLMW/"))))
+  (ty (Event ("hhoward")))
+  (descr "The purpose of this mentoring workshop is to encourage graduate students (PhD and MSc) and senior undergraduate students to pursue careers in programming language research. This workshop will provide technical sessions on cutting-edge research in programming languages, and mentoring sessions on how to prepare for a research career.")
+)
+(
   (id "sigcomm-poster-2012")
   (ref ((name "Signposts: End-to-end networking in World of Middleboxes")
         (link (Pdf "http://anil.recoil.org/papers/2012-sigcomm-signposts-demo.pdf")) ))
