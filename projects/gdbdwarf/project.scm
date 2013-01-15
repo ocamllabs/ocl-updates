@@ -1,5 +1,5 @@
 (
-  (id gdb-dwarf)
+  (id gdbdwarf)
   (name "Emission of DWARF debugging information")
   (ty Compiler)
   (team (
