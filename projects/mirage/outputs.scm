@@ -81,3 +81,11 @@ Our new Mirage operating system proposes a radically different way of building t
 
 Developers no longer need to become sysadmins, expert in the configuration of all manner of system components, to use cloud resources. At the same time, they can develop their code using their usual tools, only making the final push to the cloud once they are satisfied their code works. As they explicitly link in components that would normally be provided by the host OS, the resulting unikernels are also highly compact: facilities that are not used are simply not included in the resulting unikernel. For example, the self-hosting Mirage web server image is less than a megabyte in size!")
 )
+(
+  (id "hotos2013")
+  (ref ((name "Data centers are microkernels done accidentally: lessons for building a million-core distributed OS")
+        (link (Pdf "http://anil.recoil.org/papers/drafts/2013-hotos-draft.pdf"))))
+  (ty (Paper ((name "14th Workshop on Hot Topics in Operating Systems (HotOS)")
+              (link (Webpage "https://www.usenix.org/conference/hotos13")) )))
+  (descr "Data centers have accidentally fulfilled the microkernel vision: they move critical operating system components into user-space middleware. Consequentially, it is time to move to a different view of the OS in the data center— treating the node OS merely as a local enforcement agent of global decisions made by user-space systems soft- ware. Based on this observation, we present a novel distributed OS design for treating the data center as a “warehouse-scale computer”, and explain why this has attractive benefits for common distributed applications.")
+)
