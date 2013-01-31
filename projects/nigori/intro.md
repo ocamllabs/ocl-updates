@@ -33,3 +33,5 @@ synchronised across all their devices.
 More information is at the project's homepage: [http://code.google.com/p/nigori/](http://code.google.com/p/nigori/).
 
 Current status: *New ACS Student, Bogdan, getting started*
+
+Update on status: *A github repository is also available at [https://github.com/ucam-cl-dtg/nigori](https://github.com/ucam-cl-dtg/nigori)*
