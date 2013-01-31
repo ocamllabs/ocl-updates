@@ -2,9 +2,9 @@
   (date 2012-12-15)
   (ty (Event "web-design-content"))
   (descr "Amir has been working with a design firm on the first iteration of a new
-          logo [here TODO](#).  This will be released into the public domain and it's likely that
+          logo.  This will be released into the public domain and it's likely that
           further iterations will follow up until the final release of the OCaml
-          Platform.  If you have feedback or suggestions, please contact Amir.")
+          Platform.")
 )
 (
   (date 2012-12-18)
@@ -36,4 +36,18 @@
     "The first mailing list for dealing with public
     [infrastructure](http://lists.ocaml.org/listinfo/infrastructure)
     is now available.")
+)
+(
+  (date 2013-01-25)
+  (ty (Event "web-design-content"))
+  (descr "The scope of the new design project has been agreed with the design agency, who will be geting started soon.
+      The team working with the agency will be Ashish, Christophe, Amir and Anil.  Updates on progress will also be
+      sent to the infrastructure mailing list when drafts are available.")
+)
+(
+  (date 2013-01-31)
+  (ty (Event "web-design-content"))
+  (descr "The first iteration of a new OCaml logo is available for comment and can be seen
+          [here TODO](#).  One more round of itereation will follow in the coming weeks so
+          please do get in touch with Amir if you have feedback.")
 )
