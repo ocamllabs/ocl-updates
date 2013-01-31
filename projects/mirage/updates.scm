@@ -49,3 +49,10 @@
   (ty (Event "birmingham-talk"))
   (descr "Anil Madhavapeddy delivered the CS departmental seminar about the state of Mirage, based on the forthcoming ASPLOS 2013 paper results. Since OCaml is [taught](https://sites.google.com/site/focs1112/lecture-videos) to the undergrads, there was an unusually knowledgeable audience! [Dan Ghica](http://www.cs.bham.ac.uk/~drg/) also explained his [GoS](https://sites.google.com/site/thegeometryofsynthesis/) compiler which is relevant to the LinearML efforts.")
 )
+(
+  (date 2013-01-10)
+  (ty (Event "xen-incubate-meeting"))
+  (descr "The proposal was posted published for community review, [availble at xen.org](http://wiki.xen.org/wiki/Mirage_Incubation_Project_Proposal).
+      Early reactions on the xen.org mailing lists were very positive and the proposal is currently
+      being voted on by members of the xen community.")
+)
