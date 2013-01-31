@@ -76,3 +76,8 @@
     (descr "The camera ready paper was submitted along with many bug fixes and improvements making their way into Mirage.
         The paper can be [downloaded here](http://anil.recoil.org/papers/2013-asplos-mirage.pdf)")
 )
+(
+    (date 2013-01-20)
+    (ty (Submitted "hotos2013"))
+    (descr "A paper has been submitted to HotOS.  Please do not cite this work, although feedback is *most* welcome!")
+)
