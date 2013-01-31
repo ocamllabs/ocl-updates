@@ -56,3 +56,9 @@
       Early reactions on the xen.org mailing lists were very positive and the proposal is currently
       being voted on by members of the xen community.")
 )
+(
+    (date 2013-01-20)
+    (ty (Accepted "asplos2013"))
+    (descr "The camera ready paper was submitted along with many bug fixes and improvements making their way into Mirage.
+        The paper can be [downloaded here](http://anil.recoil.org/papers/2013-asplos-mirage.pdf)")
+)
