@@ -11,6 +11,7 @@
       ((person "jcrowcroft") (role "professorial input") (since "2011-"))
       ((person "dmcauley") (role "professorial input at Horizon") (since "2011-"))
       ((person "hhoward") (role "undergraduate researcher") (since "2012-"))
+      ((person "bkaur") (role "Horizon intern") (since "2013-"))
     )
   )
 )
