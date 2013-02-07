@@ -72,7 +72,7 @@
 )
 (
     (date 2013-01-10)
-    (ty (Submitted "hotos2013"))
+    (ty (Draft "hotos2013"))
     (descr "A paper has been submitted to HotOS.  Please do not cite this work, although feedback is *most* welcome!")
 )
 (
