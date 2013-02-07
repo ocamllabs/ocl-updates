@@ -5,5 +5,6 @@
   (team (
     ((person "crotsos") (role "Main hacker") (since "2012-"))
     ((person "avsm") (role "Primary contact") (since "2012-"))
+    ((person "rmortier") (role "Horizon") (since "2012-"))
  ))
 )
