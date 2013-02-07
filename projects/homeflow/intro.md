@@ -1,6 +1,6 @@
-Homeflow is a project to revisit and re-architect the home network, to
+Homeflow builds on the [Homework](http://homework.github.com/) project, which revisited and re-architected the home network, to
 better match the capabilities of the infrastructure to the needs of the user.
-Homeflow extends previous work where we built a home router platform that
+Homeflow extends the Homework home router platform ([Mortier et al, UIST 2012](http://homework.github.com/papers/uist12-homework.pdf))  that
 supports a range of novel control and inspection interfaces.  This platform
 has worked well in the deployments we have carried out to date. We are now
 interested in moving our prototype from the usual collection of complex,
@@ -16,8 +16,8 @@ in large-scale Ethernets. We believe there may be other places where this
 technology can be usefully applied. One particular area we are investigating
 is the use of SDN as a flexible programming model in a more reactive
 fashion, where the controller and switch are co-located. Specifically, a key
-feature of the Homeflow router is a flexible measurement plane (ref Sventek
-et al, IM 2011) which provides an efficient pub-sub mechanism for
+feature of the Homework router is a flexible measurement plane ([Sventek
+et al, IM 2011](http://homework.github.com/papers/im11-homework.pdf)) which provides an efficient pub-sub mechanism for
 applications to register interest in particular traffic patterns defined as
 FSAs. We are interested in whether the OpenFlow support for counters and
 statistics measurement can be repurposed to provide this support.
