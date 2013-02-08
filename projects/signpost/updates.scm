@@ -33,3 +33,8 @@
   (ty (Event "bt-ges-briefing-2012"))
   (descr "Anil Madhavapeddy briefed the BT global executive team (senior executives) and select customers about the Computer Lab efforts to move beyond a single monolithic cloud, and why this is important to the future of personal data and how we use the Internet.")
 )
+( 
+  (date 2013-01-17)
+  (ty (Event "darwin-seminar-2012"))
+  (descr "A video of Amir's talk is now available on [YouTube](http://www.youtube.com/watch?v=HjMhrJ7aNIg).")
+)
