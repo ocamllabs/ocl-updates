@@ -1,3 +1,10 @@
+((date 2013-01-14)
+ (ty
+  (Release code-avsm-ocaml-github
+   ((name ocaml-github-0.4.3)
+    (link (Github_tag (avsm ocaml-github ocaml-github-0.4.3))))))
+ (descr
+  "Released version [ocaml-github-0.4.3](http://github.com/avsm/ocaml-github/archive/ocaml-github-0.4.3.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Add filters and sort order parameters for `Issues` and `Milestones` for a repository.\n\n</div>"))
 ((date 2012-12-29)
  (ty
   (Release code-avsm-ocaml-github
@@ -18,7 +25,7 @@
    ((name ocaml-github-0.4.0)
     (link (Github_tag (avsm ocaml-github ocaml-github-0.4.0))))))
  (descr
-  "Released version [ocaml-github-0.4.0](http://github.com/avsm/ocaml-github/archive/ocaml-github-0.4.0.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Add a `git-jar` command which provides a convenient command-line interface\n  to list, create and save tokens.\n* Add a `github.unix` subpackage which provides a `Github_cookie_jar` module\n  which saves tokens in `HOME/.github` for other applications to query if\n  they use the Github API.\n* Complete the auth API, and rename functions slightly for consistency. We now\n  have `Token.get_all` and `Token.get` to retrieve auth information, and\n `Token.create` for constructing them. The API also includes support for adding\n  notes and URLs, which are stored on the Github side.\n\n</div>"))
+  "Released version [ocaml-github-0.4.0](http://github.com/avsm/ocaml-github/archive/ocaml-github-0.4.0.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Add a `git-jar` command which provides a convenient command-line interface\n  to list, create and save tokens.\n* Add a `github.unix` subpackage which provides a `Github_cookie_jar` module\n  which saves tokens in `~/.github` for other applications to query if\n  they use the Github API.\n* Complete the auth API, and rename functions slightly for consistency. We now\n  have `Token.get_all` and `Token.get` to retrieve auth information, and\n `Token.create` for constructing them. The API also includes support for adding\n  notes and URLs, which are stored on the Github side.\n\n</div>"))
 ((date 2012-12-18)
  (ty
   (Release code-avsm-ocaml-github

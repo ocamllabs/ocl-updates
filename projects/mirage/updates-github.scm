@@ -1,10 +1,16 @@
+((date 2013-02-08)
+ (ty
+  (Release code-mirage-mirage-platform
+   ((name mirage-platform-0.7.2)
+    (link (Github_tag (mirage mirage-platform mirage-platform-0.7.2))))))
+ (descr
+  "Released version [mirage-platform-0.7.2](http://github.com/mirage/mirage-platform/archive/mirage-platform-0.7.2.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* [xen] Fix the size of the start-of-day Xenstore and console rings.\n* Quieten the verbosity of devices sleeping in Xen, to avoid console\n  overflow situations.\n* Install the packed `cmx` along with the `cmxa` to ensure that the\n  compiler can do cross-module optimization (this is not a fatal error,\n  but will impact performance if the `cmx` file is not present).\n  \n0.7.1 (20-Dec-2012):\n* [unix] Update devices API to use Cstruct 0.6.0\n\n</div>"))
 ((date 2012-12-20)
  (ty
   (Release code-mirage-mirage-platform
    ((name mirage-platform-0.7.1)
     (link (Github_tag (mirage mirage-platform mirage-platform-0.7.1))))))
- (descr
-  "Released version [mirage-platform-0.7.1](http://github.com/mirage/mirage-platform/archive/mirage-platform-0.7.1.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* [unix] Update devices API to use Cstruct 0.6.0\n\n</div>"))
+ (descr "Released version mirage-platform-0.7.1."))
 ((date 2012-12-20)
  (ty
   (Release code-mirage-mirage-platform
@@ -53,6 +59,13 @@
    ((name mirage-platform-0.3.0)
     (link (Github_tag (mirage mirage-platform mirage-platform-0.3.0))))))
  (descr "Released version mirage-platform-0.3.0."))
+((date 2013-02-08)
+ (ty
+  (Release code-mirage-mirage-net
+   ((name mirage-net-0.5.2)
+    (link (Github_tag (mirage mirage-net mirage-net-0.5.2))))))
+ (descr
+  "Released version [mirage-net-0.5.2](http://github.com/mirage/mirage-net/archive/mirage-net-0.5.2.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Encourage scatter-gather I/O all the time, rather than playing tricks \n  with packet header buffers. This simplifies the output path considerably\n  and cuts minor heap allocations down.\n* Install the packed `cmx` along with the `cmxa` to ensure that the\n  compiler can do cross-module optimization (this is not a fatal error,\n  but will impact performance if the `cmx` file is not present).\n\n</div>"))
 ((date 2012-12-20)
  (ty
   (Release code-mirage-mirage-net
@@ -102,6 +115,13 @@
     (link (Github_tag (mirage xenbigarray xenbigarray-1.0.0))))))
  (descr
   "Released version [xenbigarray-1.0.0](http://github.com/mirage/xenbigarray/archive/xenbigarray-1.0.0.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Initial release.\n\n</div>"))
+((date 2013-02-08)
+ (ty
+  (Release code-mirage-ocaml-cstruct
+   ((name ocaml-cstruct-0.6.2)
+    (link (Github_tag (mirage ocaml-cstruct ocaml-cstruct-0.6.2))))))
+ (descr
+  "Released version [ocaml-cstruct-0.6.2](http://github.com/mirage/ocaml-cstruct/archive/ocaml-cstruct-0.6.2.tar.gz) with these changes:\n\n<div class=\"changelog\">\n\n\n</div>"))
 ((date 2012-12-20)
  (ty
   (Release code-mirage-ocaml-cstruct
@@ -109,6 +129,13 @@
     (link (Github_tag (mirage ocaml-cstruct ocaml-cstruct-0.6.1))))))
  (descr
   "Released version [ocaml-cstruct-0.6.1](http://github.com/mirage/ocaml-cstruct/archive/ocaml-cstruct-0.6.1.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Add `sendto`, `read` and `recvfrom` functions to the Lwt subpackage.\n\n</div>"))
+((date 2013-01-03)
+ (ty
+  (Release code-mirage-ocaml-cstruct
+   ((name ocaml-cstruct-0.6.0)
+    (link (Github_tag (mirage ocaml-cstruct ocaml-cstruct-0.6.0))))))
+ (descr
+  "Released version [ocaml-cstruct-0.6.0](http://github.com/mirage/ocaml-cstruct/archive/ocaml-cstruct-0.6.0.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Add fast bigarray<->string functions to replace byte-by-byte copies.\n* Add an Lwt sub-package to expose a write call.\n* Depend on ocplib-endian for fast low-level parsing of integers.\n* Make `Cstruct.t` a record type that doesn't use Bigarray slicing\n  to provide views onto buffers. This lets views be allocated directly\n  on the minor heap rather than forcing a major heap allocation. It\n  does alter the external API, so previous users of cstruct wont work.\n\n</div>"))
 ((date 2012-12-16)
  (ty
   (Release code-mirage-ocaml-cstruct
@@ -157,6 +184,20 @@
     (link (Github_tag (mirage ocaml-cstruct ocaml-cstruct-0.3))))))
  (descr
   "Released version [ocaml-cstruct-0.3](http://github.com/mirage/ocaml-cstruct/archive/ocaml-cstruct-0.3.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Initial public release\n\n</div>"))
+((date 2013-01-15)
+ (ty
+  (Release code-mirage-ocaml-cow
+   ((name ocaml-cow-0.5.2)
+    (link (Github_tag (mirage ocaml-cow ocaml-cow-0.5.2))))))
+ (descr
+  "Released version [ocaml-cow-0.5.2](http://github.com/mirage/ocaml-cow/archive/ocaml-cow-0.5.2.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Remove dependency towards the Str module\n\n</div>"))
+((date 2013-01-12)
+ (ty
+  (Release code-mirage-ocaml-cow
+   ((name ocaml-cow-0.5.1)
+    (link (Github_tag (mirage ocaml-cow ocaml-cow-0.5.1))))))
+ (descr
+  "Released version [ocaml-cow-0.5.1](http://github.com/mirage/ocaml-cow/archive/ocaml-cow-0.5.1.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Fix bugs in `Markdown_github` and factorize html serialization functions\n* New antiquotation kinds for CSS\n* Add xhtml quotations (which are identical to html from now on)\n\n</div>"))
 ((date 2012-12-04)
  (ty
   (Release code-mirage-ocaml-cow

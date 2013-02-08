@@ -1,9 +1,32 @@
+((date 2013-02-01)
+ (ty
+  (Release code-OCamlPro-opam
+   ((name 0.9.2) (link (Github_tag (OCamlPro opam 0.9.2))))))
+ (descr
+  "Released version [0.9.2](http://github.com/OCamlPro/opam/archive/0.9.2.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Install all the API files\n* Fix `opam repo remove repo-name`\n* speed-up `opam config env`\n* support for `opam-foo` scripts (which can be called using `opam foo`)\n* 'opam update pinned-package' works\n* Fix 'opam-mk-repo -a'\n* Fix 'opam-mk-repo -i'\n* clean-up pinned cache dir when a pinned package fails to install\n\n</div>"))
+((date 2013-01-15)
+ (ty
+  (Release code-OCamlPro-opam
+   ((name 0.9.1) (link (Github_tag (OCamlPro opam 0.9.1))))))
+ (descr
+  "Released version [0.9.1](http://github.com/OCamlPro/opam/archive/0.9.1.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Use ocaml-re 1.2.0\n\n</div>"))
+((date 2013-01-12)
+ (ty
+  (Release code-OCamlPro-opam
+   ((name 0.9.0) (link (Github_tag (OCamlPro opam 0.9.0))))))
+ (descr
+  "Released version [0.9.0](http://github.com/OCamlPro/opam/archive/0.9.0.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* add a new `--fake` option to simulate build and installation of packages. Use this option this care, it can easily corrupt the state of OPAM.\n* Better messages in case of error\n* OPAM proposes better solutions to the user\n* support for installed roots and auto-clean of unused packages\n* rename `--cores` to `--jobs`\n* better error messages for wrong argument of 'opam init'\n* show the root causes of actions done by OPAM\n* opam import and export now uses -f to specify the filename, and uses stdin and stdout if no filename is specified\n* Fix environment initialisation for some corner-cases\n* Add a way to specify how to run tests and build documentation for the packages\n* Display homepage, authors, doc link, license with 'opam info'\n* Improve `opam remove` efficiency when using `ocamlfind` command(s) only\n* Git pinning now works with commits/tags/branches\n* `opam init` works without preinstalled compiler\n* Support for DARCS backends\n* Each global command-line flag `xxx` as can be set using the `OPAMxxx` environment variable instead\n* Better display of compiler switch (+ read compiler descriptions)\n* Clearer error message when trying to pin a non-existing package\n* Fix issue with pinning to version number\n* Add a `shared` location to be used in OPAM files\n* Improve (but break) the command-line interface by using cmdliner\n\n</div>"))
+((date 2013-01-02)
+ (ty
+  (Release code-OCamlPro-opam
+   ((name 0.8.3) (link (Github_tag (OCamlPro opam 0.8.3))))))
+ (descr "Released version 0.8.3."))
 ((date 2012-12-14)
  (ty
   (Release code-OCamlPro-opam
    ((name 0.8.2) (link (Github_tag (OCamlPro opam 0.8.2))))))
  (descr
-  "Released version [0.8.2](http://github.com/OCamlPro/opam/archive/0.8.2.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Fix an issue with `opam reinstall <packages>` where packages were reinstalled in reverse order\n\n</div>"))
+  "Released version [0.8.2](http://github.com/OCamlPro/opam/archive/0.8.2.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* Fix an issue with `opam reinstall` where packages were reinstalled in reverse order\n\n</div>"))
 ((date 2012-11-14)
  (ty
   (Release code-OCamlPro-opam
@@ -39,7 +62,7 @@
   (Release code-OCamlPro-opam
    ((name 0.7.4) (link (Github_tag (OCamlPro opam 0.7.4))))))
  (descr
-  "Released version [0.7.4](http://github.com/OCamlPro/opam/archive/0.7.4.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* improve `opam pin`: the code is more robust and it is now possible to pin a package to a git repository\n* add support for patches per package\n* add `opam swith -import <file>` and `opam switch -export <file>`\n\n</div>"))
+  "Released version [0.7.4](http://github.com/OCamlPro/opam/archive/0.7.4.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* improve `opam pin`: the code is more robust and it is now possible to pin a package to a git repository\n* add support for patches per package\n* add `opam switch -import file` and `opam switch -export file`\n\n</div>"))
 ((date 2012-09-29)
  (ty
   (Release code-OCamlPro-opam

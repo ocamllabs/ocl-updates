@@ -1,3 +1,10 @@
+((date 2012-12-31)
+ (ty
+  (Release code-mirage-ocaml-dns
+   ((name ocaml-dns-0.6.0)
+    (link (Github_tag (mirage ocaml-dns ocaml-dns-0.6.0))))))
+ (descr
+  "Released version [ocaml-dns-0.6.0](http://github.com/mirage/ocaml-dns/archive/ocaml-dns-0.6.0.tar.gz) with these changes:\n\n<div class=\"changelog\">\n* (Very) experimental DNSSEC support.\n* Use cstruct-0.6.0 API.\n* Improve robustness of `Dns_resolver`.\n* Add EDNS0 support for larger packet sizes.\n\n</div>"))
 ((date 2012-10-06)
  (ty
   (Release code-mirage-ocaml-dns
