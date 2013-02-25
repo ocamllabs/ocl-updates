@@ -81,3 +81,23 @@
     (descr "The camera ready paper was submitted along with many bug fixes and improvements making their way into Mirage.
         The paper can be [downloaded here](http://anil.recoil.org/papers/2013-asplos-mirage.pdf)")
 )
+(
+  (date 2013-02-08)
+  (ty (Event "xen-incubate-meeting"))
+  (descr "Voting is now underway for the incubation proposal and will remain open for one week.  The announcement, with details of eligibliity,
+    can be found on the [xen mailing list](http://markmail.org/message/ikpv4djvamqpqaez).")
+)
+(
+  (date 2013-02-13)
+  (ty (Event "xen-incubate-meeting"))
+  (descr "Amir represented Mirage to various vendors during a conference call at Citrix.  Vendors were largely positive abouth the benefits of Mirage
+    and were keen to support the links between academia and industry, especially in regard to translating research into commercial settings.")
+)
+(
+  (date 2013-02-23)
+  (ty (Event "xen-incubate-meeting"))
+  (descr "The voting process is over and Mirage has been accepted as an incubated project! This will dramatically increase Mirage's
+    profile amongst the Xen community and allow access to further resources.  The Mirage team is now putting together a plan for the
+    incubation phase in order to emerge as a mature and successful project.
+    The original announcement with details of the vote can be found on the [xen mailing list](http://markmail.org/message/d73bygans4wc5y2v).")
+)
