@@ -38,3 +38,10 @@
   (ty (Event "darwin-seminar-2012"))
   (descr "A video of Amir's talk is now available on [YouTube](http://www.youtube.com/watch?v=HjMhrJ7aNIg).")
 )
+( 
+  (date 2013-01-17)
+  (ty (Event "open-everything"))
+  (descr "Heidi gave an excellent talk on the direction Signpost is taking and the problems the technology solves.
+    During the Q&A, the use-case was raised of Signpost as part of the OCaml.org distributed build system.
+    There was fairly unanimous agreement that Heidi's slides were better than Anil's.")
+)

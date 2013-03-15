@@ -60,3 +60,12 @@ internet today and also the software we’re creating to enable personal clouds.
     (like NATS and mobile gateways) and uses DNSSEC (secure DNS) technology via OpenMirage, an
     open source heavy duty secure operating system built from scratch.'")
 )
+(
+  (id "open-everything")
+  (ref ((name "")
+        (link (Blog "")) ))
+  (ty (Article ((name "Open Everything event") 
+              (link (Webpage "")) )))
+  (descr "Alan Mycroft organised a set of talks on Open Software and Hardware with a series of speakers
+    intimately involved in the business side of the Open Software community.")
+)
