@@ -16,3 +16,11 @@
          coordinating the OCaml Platform release alongside the book to make the
          most of the marketing efforts.")
 )
+(
+    (date 2013-03-13)
+    (ty (Event "book-website"))
+    (descr
+         "The book is now at alpha3 with many comments and issues having been resolved.
+         The earlier sections of the book are largely complete and the installation section
+         has been vastly improved.")
+)
