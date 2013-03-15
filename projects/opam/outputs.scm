@@ -16,3 +16,16 @@
     packages, but which make them do not scale because they do not handle
     the dependencies and conflicts correctly.")
 )
+(
+  (id "opam-tool")
+  (ref ((name "Work on OPAM") 
+        (link (Webpage "")) ))
+  (ty (Talk ((name "")
+      (link (Webpage "http://opam.ocamlpro.com")))))
+  (extra (
+     ((name Slides) (link (Pdf "")))
+     ((name Abstract) (link (Pdf "")))
+     ((name Video) (link (Video "")))
+  ))
+  (descr "OPAM as a tool is also being improved and regular releases are important.")
+)

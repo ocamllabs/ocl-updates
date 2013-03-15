@@ -8,3 +8,10 @@
         to unify them eventually, but starts by wrapping existing systems
         for compatibility.")
 )
+(
+    (date 2013-03-14)
+    (ty (Event "opam-tool"))
+    (descr "OPAM has reached version 1.0.0!  This is a fantastic milestone
+        and our congratulations go to [Thomas](../people/tgazagnaire.html)
+        and the whole OPAM team.")
+)
