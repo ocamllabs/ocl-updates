@@ -82,6 +82,11 @@
         The paper can be [downloaded here](http://anil.recoil.org/papers/2013-asplos-mirage.pdf)")
 )
 (
+  (date 2013-02-07)
+  (ty (Event "industry-talks"))
+  (descr "Anil did a tech talk at Citrix.")
+)
+(
   (date 2013-02-08)
   (ty (Event "xen-incubate-meeting"))
   (descr "Voting is now underway for the incubation proposal and will remain open for one week.  The announcement, with details of eligibliity,
@@ -100,4 +105,9 @@
     profile amongst the Xen community and allow access to further resources.  The Mirage team is now putting together a plan for the
     incubation phase in order to emerge as a mature and successful project.
     The original announcement with details of the vote can be found on the [xen mailing list](http://markmail.org/message/d73bygans4wc5y2v).")
+)
+(
+  (date 2013-02-27)
+  (ty (Event "industry-talks"))
+  (descr "Anil did a tech talk at Microsoft Research.")
 )

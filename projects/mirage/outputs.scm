@@ -119,3 +119,11 @@
     global decisions made by user-space systems soft- ware. Based on this observation, we present a novel distributed OS design for treating the data
     center as a “warehouse-scale computer”, and explain why this has attractive benefits for common distributed applications.")
 )
+(
+  (id "industry-talks")
+  (ref ((name "Unikernels: Functional Library Operating Systems for the Cloud")
+        (link (Webpage "")) ))
+  (ty (Talk ((name "Industry Talks")
+             (link (Webpage "")) )))
+  (descr "Mirage Talks to industrial people")
+)
