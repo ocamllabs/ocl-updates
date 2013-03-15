@@ -48,7 +48,8 @@
   (date 2013-01-31)
   (ty (Event "web-design-content"))
   (descr "The first iteration of a new OCaml logo is available for comment and can be seen
-          [here TODO](#).  One more round of itereation will follow in the coming weeks so
+          [here](https://github.com/ocaml/ocaml.org/wiki/Draft-OCaml-Logos).
+          One more round of itereation will follow in the coming weeks so
           please do get in touch with Amir if you have feedback.")
 )
 (
@@ -61,4 +62,25 @@
      [in the archive](http://lists.ocaml.org/pipermail/wg-camlp4/2013-January/000000.html).  Working groups are intended
      to be community driven projects and the intent is to archive the list once the projects are complete.
      Two other lists are also planned, which are multicore working group and the ongoing platform list.")
+)
+(
+  (date 2013-03-11)
+  (ty (Event "mailing-lists"))
+  (descr
+    "An OpenGL mailing list was created for a number of people who are experimenting with using LabGL on the Raspberry Pi.")
+)
+(
+  (date 2013-03-14)
+  (ty (Event "mailing-lists"))
+  (descr
+    "A lot of discussion has taken place on the platform list about namespaces for OCaml. Leo has written a blog post
+    that describe the needs and summarise the discussions so far.  You can [read it on his site](http://www.lpw25.net).")
+)
+(
+  (date 2013-03-14)
+  (ty (Event "web-design-content"))
+  (descr "Amir has written a blog post that gives an overview of the redesign of OCaml.org.
+          This also included a set of three screencasts that describe the new functionality
+          and a clickable demo that people can experience for themselves.  
+          [Read Amir's blog post](http://amirchaudhry.com/wireframe-demos-for-ocamlorg/) for details.")
 )
